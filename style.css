@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  @apply py-4 pl-6 pr-20 inline-block rounded-full relative text-lg font-semibold transition-all duration-300;
+}
+.button-gradient {
+  @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-Primary/50 shadow-xl;
+}
+.button-white {
+  @apply bg-white text-Secondary hover:text-white hover:bg-gradient-to-l hover:from-0% hover:from-Primary hover:to-Secondary;
+}
+.button:before {
+  content: '';
+  background-image: url(http://cop.idevs.site/wp-content/uploads/2023/07/arrow-white.gif);
+  height: 15px;
+  width: 33px;
+  @apply absolute bg-center bg-contain bg-no-repeat top-1/2 -translate-y-1/2 right-6 transition-all duration-300;
+}
+.button-white::before {
+  background-image: url(http://cop.idevs.site/wp-content/uploads/2023/07/arrow-blue.gif);
+}
+.button-white:hover::before {
+  background-image: url(http://cop.idevs.site/wp-content/uploads/2023/07/arrow-white.gif);
+}
+.container-max {
+  @apply w-full px-6 m-auto;
+  max-width: 1658px;
+}
+.container-small {
+  @apply w-full px-6 m-auto;
+  max-width: 1348px;
+}
