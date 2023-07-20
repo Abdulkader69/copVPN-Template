@@ -10,6 +10,7 @@ module.exports = {
         Gray8a9: '#8a919a',
         Gray858: '#858585',
         Gray565: '#565b61',
+        Grayf8f: '#f8f9fb',
       },
     },
   },

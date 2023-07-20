@@ -12,7 +12,7 @@ body {
   @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-Primary/50 shadow-xl;
 }
 .button-white {
-  @apply bg-white text-Secondary hover:text-white hover:bg-gradient-to-l hover:from-0% hover:from-Primary hover:to-Secondary;
+  @apply bg-white text-Secondary hover:text-white hover:bg-gradient-to-l hover:from-0% hover:from-Primary hover:to-Secondary shadow-Secondary/10 shadow-xl;
 }
 .button:before {
   content: '';
