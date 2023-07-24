@@ -8,6 +8,8 @@ export default {
         another: resolve(__dirname, 'single.html'),
         refer: resolve(__dirname, 'refer-friends.html'),
         servers: resolve(__dirname, 'servers.html'),
+        features: resolve(__dirname, 'features.html'),
+        pricing: resolve(__dirname, 'pricing.html'),
       },
     },
   },

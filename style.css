@@ -35,3 +35,20 @@ body {
   @apply w-full px-6 m-auto;
   max-width: 1348px;
 }
+.prose li {
+  position: relative;
+  list-style: none;
+}
+.prose li::before {
+  position: absolute;
+  content: '';
+  height: 22px;
+  width: 22px;
+  background-image: url(http://cop.idevs.site/wp-content/uploads/2023/07/checkmark.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}

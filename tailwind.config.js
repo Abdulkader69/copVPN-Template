@@ -12,6 +12,9 @@ module.exports = {
         Gray565: '#565b61',
         Grayf8f: '#f8f9fb',
       },
+      boxShadow: {
+        card: '0px 20px 54px 0px rgba(0, 0, 0, 0.06)',
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
