@@ -9,7 +9,7 @@ body {
   @apply py-4 pl-6 pr-20 inline-block rounded-full relative text-lg font-semibold transition-all duration-300;
 }
 .button-gradient {
-  @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-Primary/50 shadow-xl;
+  @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-cardPrimary;
 }
 .button-white {
   @apply bg-white text-Secondary hover:text-white hover:bg-gradient-to-l hover:from-0% hover:from-Primary hover:to-Secondary shadow-Secondary/10 shadow-xl;
