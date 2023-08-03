@@ -27,6 +27,12 @@ body {
 .button-white:hover::before {
   background-image: url(http://cop.idevs.site/wp-content/uploads/2023/07/arrow-white.gif);
 }
+.button.arrow-none:before {
+  display: none;
+}
+.button.arrow-none {
+  @apply pr-6;
+}
 .container-max {
   @apply w-full px-6 m-auto;
   max-width: 1658px;
