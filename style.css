@@ -11,17 +11,17 @@ html {
 }
 @media screen and (min-width: 640px) and (max-width: 1023px) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   html {
-    font-size: calc(100vw / 1279 * 10);
+    font-size: calc(100vw / 1379 * 10);
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1535px) {
   html {
-    font-size: calc(100vw / 1535 * 10);
+    font-size: calc(100vw / 1650 * 10);
   }
 }
 @media screen and (min-width: 1536px) {
@@ -33,7 +33,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .button {
-  @apply py-8 pl-10 pr-32 inline-block rounded-full relative text-3xl font-semibold transition-all duration-300;
+  @apply py-3 sm:py-8 pl-5 sm:pl-10 pr-16 sm:pr-32 inline-block rounded-full relative text-lg sm:text-3xl font-semibold transition-all duration-300;
 }
 .button-gradient {
   @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-cardPrimary;
@@ -44,7 +44,7 @@ body {
 .button:before {
   content: '';
   background-image: url(http://cop.idevs.site/wp-content/uploads/2023/08/arrow-narrow-right.svg);
-  @apply absolute w-20 h-16 bg-center bg-contain bg-no-repeat top-1/2 -translate-y-1/2 right-6 transition-all duration-300;
+  @apply absolute w-10 sm:w-20 h-8 sm:h-16 bg-center bg-contain bg-no-repeat top-1/2 -translate-y-1/2 right-3 sm:right-6 transition-all duration-300;
 }
 .button-white::before {
   background-image: url(http://cop.idevs.site/wp-content/uploads/2023/08/arrow-narrow-right-green.svg);

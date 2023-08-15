@@ -16,7 +16,7 @@
         <div class="container-max flex justify-between">
           <div class="left flex flex-wrap items-center">
             <div
-              class="site-branding pr-7 lg:pr-10 2xl:pr-14 w-80 prose-img:w-full prose-img:h-auto"
+              class="site-branding pr-7 lg:pr-10 2xl:pr-14 w-40 sm:w-80 prose-img:w-full prose-img:h-auto"
             >
               <a
                 href="https://cop.idevs.site/"
@@ -95,12 +95,12 @@
           </div>
           <div class="right flex items-center">
             <div
-              class="lang flex items-center uppercase text-sm md:text-2xl text-Dark1f2 font-semibold gap-2 !leading-none"
+              class="lang flex items-center uppercase text-sm sm:text-2xl text-Dark1f2 font-semibold gap-2 !leading-none"
             >
               <img
                 src="http://cop.idevs.site/wp-content/uploads/2023/08/earth.webp"
                 alt=""
-                class="w-8 h-auto"
+                class="w-6 sm:w-8 h-auto"
               />
               eng
               <svg
@@ -123,21 +123,21 @@
                 >Login</a
               >
             </div>
-            <div class="get-vpn pl-3 hidden xl:block">
+            <div class="get-vpn pl-2 sm:pl-3 hidden xl:block">
               <a href="#" class="button button-gradient !py-6">Get Cop VPN</a>
             </div>
             <button
               id="menu-trigger"
-              class="block lg:hidden button-gradient w-14 h-14 rounded-full ml-4 relative"
+              class="block lg:hidden button-gradient w-16 sm:w-24 h-16 sm:h-24 rounded-full ml-4 relative"
             >
               <span
-                class="inline-block w-7 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[16px]"
+                class="inline-block w-7 sm:w-14 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[16px]"
               ></span>
               <span
-                class="inline-block w-7 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[26px]"
+                class="inline-block w-7 sm:w-14 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[26px]"
               ></span>
               <span
-                class="inline-block w-7 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[36px]"
+                class="inline-block w-7 sm:w-14 h-[3px] bg-white left-1/2 -translate-x-1/2 absolute top-[36px]"
               ></span>
             </button>
           </div>
@@ -145,57 +145,77 @@
       </header>
 
       <!-- ==================== Hero Section ==================== -->
-      <section class="home-hero-section relative overflow-hidden pt-56 pb-10">
+      <section
+        class="home-hero-section relative overflow-hidden pt-40 sm:pt-56 pb-10"
+      >
         <div class="container-max flex flex-wrap items-center relative z-10">
           <div class="left w-full lg:w-1/2">
-            <div class="timer pb-20">
-              <h4 class="text-center lg:text-left text-3xl text-Gray565 pb-2">
+            <div class="timer pb-8 sm:pb-20">
+              <h4
+                class="text-center lg:text-left text-xl sm:text-3xl text-Gray565 pb-2"
+              >
                 Deal Ends in:
               </h4>
               <div
-                class="time-counter flex flex-wrap gap-5 justify-center lg:justify-start"
+                class="time-counter flex flex-wrap gap-3 sm:gap-5 justify-center lg:justify-start"
               >
                 <div
-                  class="item text-center flex items-center justify-center h-44 w-44 border border-solid border-Gray565 rounded-lg"
+                  class="item text-center flex items-center justify-center h-20 sm:h-44 w-20 sm:w-44 border border-solid border-Gray565 rounded-lg"
                 >
                   <div class="inner">
-                    <h2 class="text-7xl font-semibold text-Dark1f2">00</h2>
-                    <p class="text-2xl text-Gray858 uppercase">days</p>
+                    <h2 class="text-2xl sm:text-7xl font-semibold text-Dark1f2">
+                      00
+                    </h2>
+                    <p class="text-base sm:text-2xl text-Gray858 uppercase">
+                      days
+                    </p>
                   </div>
                 </div>
                 <div
-                  class="item text-center flex items-center justify-center h-44 w-44 border border-solid border-Gray565 rounded-lg"
+                  class="item text-center flex items-center justify-center h-20 sm:h-44 w-20 sm:w-44 border border-solid border-Gray565 rounded-lg"
                 >
                   <div class="inner">
-                    <h2 class="text-7xl font-semibold text-Dark1f2">10</h2>
-                    <p class="text-2xl text-Gray858 uppercase">Hours</p>
+                    <h2 class="text-2xl sm:text-7xl font-semibold text-Dark1f2">
+                      10
+                    </h2>
+                    <p class="text-base sm:text-2xl text-Gray858 uppercase">
+                      Hours
+                    </p>
                   </div>
                 </div>
                 <div
-                  class="item text-center flex items-center justify-center h-44 w-44 border border-solid border-Gray565 rounded-lg"
+                  class="item text-center flex items-center justify-center h-20 sm:h-44 w-20 sm:w-44 border border-solid border-Gray565 rounded-lg"
                 >
                   <div class="inner">
-                    <h2 class="text-7xl font-semibold text-Dark1f2">21</h2>
-                    <p class="text-2xl text-Gray858 uppercase">Mins</p>
+                    <h2 class="text-2xl sm:text-7xl font-semibold text-Dark1f2">
+                      21
+                    </h2>
+                    <p class="text-base sm:text-2xl text-Gray858 uppercase">
+                      Mins
+                    </p>
                   </div>
                 </div>
                 <div
-                  class="item text-center flex items-center justify-center h-44 w-44 border border-solid border-Gray565 rounded-lg"
+                  class="item text-center flex items-center justify-center h-20 sm:h-44 w-20 sm:w-44 border border-solid border-Gray565 rounded-lg"
                 >
                   <div class="inner">
-                    <h2 class="text-7xl font-semibold text-Dark1f2">36</h2>
-                    <p class="text-2xl text-Gray858 uppercase">Sec</p>
+                    <h2 class="text-2xl sm:text-7xl font-semibold text-Dark1f2">
+                      36
+                    </h2>
+                    <p class="text-base sm:text-2xl text-Gray858 uppercase">
+                      Sec
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <h3
-              class="text-center lg:text-left text-Dark3e4 text-3xl uppercase font-semibold pb-8"
+              class="text-center lg:text-left text-Dark3e4 text-lg sm:text-2xl lg:text-3xl uppercase font-semibold pb-4 sm:pb-8"
             >
               One Account, Unlimited Devices
             </h3>
             <h1
-              class="text-center lg:text-left text-[6.8rem] leading-none text-Dark1f2 font-semibold prose-p:text-Primary prose-p:inline-block prose-p:mb-0 pb-11 tracking-tight prose"
+              class="text-center lg:text-left text-5xl sm:text-7xl lg:text-[6.8rem] leading-none text-Dark1f2 font-semibold prose-p:text-Primary prose-p:inline-block prose-p:mb-0 pb-8 sm:pb-11 tracking-tight prose"
             >
               Grab
               <p>83% OFF</p>
@@ -206,14 +226,14 @@
               <a href="" class="button button-gradient"> Get CopVPN</a>
             </div>
             <div
-              class="money-back flex items-center justify-center lg:justify-start text-2xl text-Gray8a9"
+              class="money-back flex items-center justify-center lg:justify-start text-base sm:text-2xl text-Gray8a9"
             >
               <svg
                 fill="#3e454e"
                 viewBox="0 0 1920 1920"
                 xmlns="http://www.w3.org/2000/svg"
                 stroke="#3e454e"
-                class="w-7 h-7"
+                class="w-4 sm:w-7 h-4 sm:h-7"
               >
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g
@@ -235,7 +255,7 @@
             <img
               src="http://cop.idevs.site/wp-content/uploads/2023/07/Group-gfx.gif"
               alt="home-hero-gif"
-              class="w-full h-full -mb-36"
+              class="w-full h-full -mb-36 sm:-mb-96 lg:-mb-36"
             />
           </div>
         </div>
@@ -282,9 +302,9 @@
       <!-- ==================== Hero Section ==================== -->
 
       <!-- ==================== Our VPN Tagline Section ==================== -->
-      <section class="our-vpn-tagline-section py-36">
+      <section class="our-vpn-tagline-section py-20 sm:py-36">
         <div
-          class="container-small flex flex-wrap items-center pb-32 last:pb-0"
+          class="container-small flex flex-wrap items-center pb-16 sm:pb-32 last:pb-0"
         >
           <div class="left w-full lg:w-1/2 text-center lg:pr-36">
             <img
@@ -294,23 +314,25 @@
             />
           </div>
 
-          <div class="right w-full lg:w-1/2 pl-10">
+          <div class="right w-full lg:w-1/2 lg:pl-10">
             <h2
-              class="text-[4.8rem] text-Dark1f2 font-light prose-strong:font-bold leading-tight"
+              class="text-3xl sm:text-6xl lg:text-[4.8rem] text-Dark1f2 font-light prose-strong:font-bold leading-tight"
             >
               Best VPN <strong>Service for</strong> <br />
               <strong>Privacy</strong> & Anonymity
             </h2>
-            <div class="title-mark flex items-center">
+            <div class="title-mark flex items-center pt-2 sm:pt-0">
               <img
                 src="http://cop.idevs.site/wp-content/uploads/2023/07/favicon.png"
                 alt="title-mark"
-                class="w-7"
+                class="w-5 sm:w-7"
               />
-              <span class="w-10 h-1 ml-1 bg-Primary inline-block"></span>
+              <span
+                class="w-8 sm:w-10 h-0.5 sm:h-1 ml-1 bg-Primary inline-block"
+              ></span>
             </div>
             <div
-              class="content prose text-3xl leading-normal text-Dark1f2 py-16"
+              class="content prose text-lg sm:text-3xl leading-normal text-Dark1f2 py-8 sm:py-16"
             >
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -336,7 +358,7 @@
         <div
           class="container-small flex flex-wrap flex-row-reverse items-center pb-32 last:pb-0"
         >
-          <div class="left w-full lg:w-1/2 text-center pl-36">
+          <div class="left w-full lg:w-1/2 text-center lg:pl-36 pb-10 sm:pb-0">
             <img
               src="http://cop.idevs.site/wp-content/uploads/2023/07/trust-vpn-gfx.gif"
               alt="best-vpn-gfx"
@@ -344,22 +366,24 @@
             />
           </div>
 
-          <div class="right w-full lg:w-1/2 pr-10">
+          <div class="right w-full lg:w-1/2 lg:pr-10">
             <h2
-              class="text-[4.8rem] text-Dark1f2 font-light prose-strong:font-bold leading-tight"
+              class="text-3xl sm:text-6xl lg:text-[4.8rem] text-Dark1f2 font-light prose-strong:font-bold leading-tight"
             >
               A VPN You Can <strong>Trust</strong>
             </h2>
-            <div class="title-mark flex items-center">
+            <div class="title-mark flex items-center pt-2 sm:pt-0">
               <img
                 src="http://cop.idevs.site/wp-content/uploads/2023/07/favicon.png"
                 alt="title-mark"
-                class="w-7"
+                class="w-5 sm:w-7"
               />
-              <span class="w-10 h-1 ml-1 bg-Primary inline-block"></span>
+              <span
+                class="w-8 sm:w-10 h-0.5 sm:h-1 ml-1 bg-Primary inline-block"
+              ></span>
             </div>
             <div
-              class="content prose text-3xl leading-normal text-Dark1f2 py-16"
+              class="content prose text-lg sm:text-3xl leading-normal text-Dark1f2 py-8 sm:py-16"
             >
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -386,11 +410,13 @@
 
       <!-- ==================== Our Benefits Section ==================== -->
       <section
-        class="section section-our-benefits relative overflow-hidden py-40 bg-[#F8F9FB]"
+        class="section section-our-benefits relative overflow-hidden py-20 sm:py-40 bg-[#F8F9FB]"
       >
-        <div class="container-small sm md lg xl 2xl mx-auto px-5">
+        <div class="container-small">
           <div class="title-wrapper mb-4">
-            <h2 class="text-[4.8rem] leading-tight text-center text-[#1f2935]">
+            <h2
+              class="text-4xl sm:text-[4.8rem] leading-tight text-center text-[#1f2935]"
+            >
               Our <b>Benefits</b>
             </h2>
           </div>
@@ -398,19 +424,21 @@
             <img
               src="http://cop.idevs.site/wp-content/uploads/2023/07/favicon.png"
               alt="title-mark"
-              class="w-7"
+              class="w-5 sm:w-7"
             />
-            <span class="w-10 h-1 ml-1 bg-Primary inline-block"></span>
+            <span
+              class="w-8 sm:w-10 h-0.5 sm:h-1 ml-1 bg-Primary inline-block"
+            ></span>
           </div>
-          <div class="content-wrapper mt-11">
+          <div class="content-wrapper mt-8 sm:mt-11">
             <div
               class="item-wrapper grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3"
             >
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/policy.png"
@@ -418,10 +446,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">No Logs Policy</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    No Logs Policy
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -438,10 +470,10 @@
               </div>
 
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/month.png"
@@ -449,10 +481,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">Strong Encryption</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    Strong Encryption
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -469,10 +505,10 @@
               </div>
 
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/month.png"
@@ -480,10 +516,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">Large Server Fleet</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    Large Server Fleet
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -500,10 +540,10 @@
               </div>
 
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/speeds.png"
@@ -511,10 +551,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">Fast Speeds</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    Fast Speeds
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -531,10 +575,10 @@
               </div>
 
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/guarantee.png"
@@ -542,10 +586,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">Money-Back Guarantee</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    Money-Back Guarantee
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -562,10 +610,10 @@
               </div>
 
               <div
-                class="item relative group pt-8 px-16 pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
+                class="item relative group pt-0 sm:pt-8 sm:px-16 pb-10 sm:pb-16 rounded-3xl hover:bg-white hover:shadow-card transition-all ease-in-out"
               >
                 <div
-                  class="icon flex items-center justify-center w-36 h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                  class="icon flex items-center justify-center w-28 sm:w-36 h-28 sm:h-36 bg-white group-hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
                 >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/support.png"
@@ -573,10 +621,14 @@
                     class="group-hover:brightness-0 group-hover:invert"
                   />
                 </div>
-                <div class="title-wrapper mt-7">
-                  <h4 class="text-4xl font-semibold">24/7 Support</h4>
+                <div class="title-wrapper mt-4 sm:mt-7">
+                  <h4 class="text-2xl sm:text-4xl font-semibold">
+                    24/7 Support
+                  </h4>
                 </div>
-                <div class="content mt-6 text-[1.7rem] leading-normal">
+                <div
+                  class="content mt-4 sm:mt-6 text-lg sm:text-[1.7rem] leading-normal"
+                >
                   <p class="text-[#757575]">
                     Etiam nec dapibus purus, ut pellentesque nisl. Sed at
                     fringilla mi. Fusce ac maur.
@@ -593,7 +645,7 @@
               </div>
             </div>
           </div>
-          <div class="button-wrapper text-center mt-14">
+          <div class="button-wrapper text-center mt-8 sm:mt-14">
             <a href="#" class="button button-gradient">Get CopVPN</a>
           </div>
         </div>
@@ -648,7 +700,7 @@
               class="platform mt-11 flex flex-wrap items-center justify-center lg:justify-start gap-2"
             >
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <a href="#">
                   <img
@@ -660,7 +712,7 @@
               </div>
 
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <img
                   src="http://cop.idevs.site/wp-content/uploads/2023/07/mac.png"
@@ -670,7 +722,7 @@
               </div>
 
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <img
                   src="http://cop.idevs.site/wp-content/uploads/2023/07/android.png"
@@ -680,7 +732,7 @@
               </div>
 
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <img
                   src="http://cop.idevs.site/wp-content/uploads/2023/07/chrome.png"
@@ -690,7 +742,7 @@
               </div>
 
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <img
                   src="http://cop.idevs.site/wp-content/uploads/2023/07/opera.png"
@@ -700,7 +752,7 @@
               </div>
 
               <div
-                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-[0px_20px_54px_0px_rgba(15,39,42,0.06)] transition-all ease-in-out"
+                class="icon flex items-center justify-center w-24 h-24 bg-white/[.2] hover:bg-gradient-to-r from-0% from-Primary to-Secondary rounded-full shadow-card transition-all ease-in-out"
               >
                 <img
                   src="http://cop.idevs.site/wp-content/uploads/2023/07/firefox.png"
@@ -725,7 +777,7 @@
         class="section section-features relative overflow-hidden pt-40 bg-[#FFFFFF]"
       >
         <div class="container-max-full flex gap-36">
-          <div class="left w-3/5 pl-[16%] pb-[5%]">
+          <div class="left w-3/5 pl-12 xl:pl-[16%] pb-[5%]">
             <div class="title-wrapper mb-4">
               <h2 class="text-[4.8rem] leading-tight text-[#1f2935]">
                 Get Access To The Latest <br />
@@ -1844,29 +1896,35 @@
 
       <footer
         id="main-footer"
-        class="site-footer relative text-white bg-[#15191c] pt-64 pb-14"
+        class="site-footer relative text-white bg-[#15191c] pb-10 sm:pt-14 lg:pb-20"
       >
-        <div class="footer-top-section absolute w-full left-0 -top-44">
-          <div class="container sm md lg xl 2xl mx-auto px-5">
+        <div
+          class="footer-top-section w-full sm:-mt-56 lg:-mt-80 -pb-20 sm:pb-28 lg:pb-40 relative -top-20 sm:-top-0"
+        >
+          <div class="container-small">
             <div
-              class="flex gap-5 justify-between py-20 px-32 rounded-2xl bg-gradient-to-r from-0% from-Primary to-Secondary"
+              class="flex flex-wrap sm:flex-nowrap gap-5 justify-between py-10 sm:py-20 lg:py-32 px-6 sm:px-16 lg:px-48 rounded-2xl bg-gradient-to-r from-0% from-Primary to-Secondary"
             >
-              <div class="flex-initial w-2/3">
-                <h2 class="text-5xl leading-tight">Exclusive 45-Day</h2>
-                <h2 class="text-5xl leading-tight">
+              <div class="flex-initial w-full sm:w-2/3">
+                <h2 class="text-2xl sm:text-5xl xl:text-[4.8rem] leading-tight">
+                  Exclusive 45-Day
+                </h2>
+                <h2 class="text-2xl sm:text-5xl xl:text-[4.8rem] leading-tight">
                   <b>Money-Back Guarantee</b>
                 </h2>
-                <p class="mt-9">
+                <p class="mt-4 sm:mt-8 lg:mt-14 text-lg sm:text-3xl">
                   Maecenas convallis euismod nunc id tempus. Vesti bulum
                 </p>
               </div>
-              <div class="flex-initial w-1/3">
+              <div class="flex-initial w-full sm:w-1/3">
                 <div class="button-wrapper">
                   <div class="cop-button">
                     <a href="#" class="button button-white">Get CopVPN</a>
                   </div>
                 </div>
-                <div class="image-wrapper mt-10">
+                <div
+                  class="image-wrapper mt-5 sm:mt-8 lg:mt-16 prose-img:w-52 lg:prose-img:w-[22rem]"
+                >
                   <img
                     src="http://cop.idevs.site/wp-content/uploads/2023/07/rating.png"
                     alt="rating"
@@ -1878,14 +1936,13 @@
         </div>
 
         <div class="footer-middle-section">
-          <div class="container sm md lg xl 2xl mx-auto px-5">
+          <div class="container-small">
             <div class="container-inner">
-              <div class="flex gap-10">
-                <div class="footer-widget-column flex-initial w-2/5">
-                  <div
-                    id="media_image-2"
-                    class="widget widget_media_image mb-6"
-                  >
+              <div class="flex flex-wrap lg:flex-nowrap lg:gap-10">
+                <div
+                  class="footer-widget-column flex-initial w-full lg:w-2/5 mb-10 sm:mb-20 prose-img:w-52 sm:prose-img:w-[28rem] prose-p:text-lg lg:prose-p:text-[1.7rem] prose-p:leading-normal space-y-4 sm:space-y-10"
+                >
+                  <div id="media_image-2" class="widget widget_media_image">
                     <a href="/">
                       <img
                         width="287"
@@ -1908,62 +1965,64 @@
                     </div>
                   </div>
                 </div>
-                <div class="footer-widget-column flex-initial w-1/5">
+                <div
+                  class="footer-widget-column flex-initial w-1/2 sm:w-1/4 lg:w-1/5 prose-h4:text-lg sm:prose-h4:text-[2rem] prose-h4:font-bold prose-h4:mb-4 sm:prose-h4:mb-8 prose-a:text-lg sm:prose-a:text-[1.7rem] prose-li:pb-3 sm:prose-li:pb-8 space-y-3 sm:space-y-6"
+                >
                   <div id="nav_menu-2" class="widget widget_nav_menu">
-                    <h4 class="widget-title text-xl font-bold mb-3">CopVPN</h4>
+                    <h4 class="widget-title">CopVPN</h4>
                     <div class="menu-footer-copvpn-container">
                       <ul id="menu-footer-copvpn" class="menu">
                         <li
                           id="menu-item-20"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-20"
+                          class="menu-item menu-item-object-custom menu-item-20"
                         >
                           <a href="#">What is a VPN</a>
                         </li>
                         <li
                           id="menu-item-21"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-21"
+                          class="menu-item menu-item-object-custom menu-item-21"
                         >
                           <a href="#">Why cop?</a>
                         </li>
                         <li
                           id="menu-item-22"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-22"
+                          class="menu-item menu-item-object-custom menu-item-22"
                         >
                           <a href="#">Pricing</a>
                         </li>
                         <li
                           id="menu-item-23"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-23"
+                          class="menu-item menu-item-object-custom menu-item-23"
                         >
                           <a href="#">Features</a>
                         </li>
                         <li
                           id="menu-item-24"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-24"
+                          class="menu-item menu-item-object-custom menu-item-24"
                         >
                           <a href="#">Servers</a>
                         </li>
                         <li
                           id="menu-item-25"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-25"
+                          class="menu-item menu-item-object-custom menu-item-25"
                         >
                           <a href="#">Download</a>
                         </li>
                         <li
                           id="menu-item-26"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-26"
+                          class="menu-item menu-item-object-custom menu-item-26"
                         >
                           <a href="#">Antivirus</a>
                         </li>
                         <li
                           id="menu-item-27"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-27"
+                          class="menu-item menu-item-object-custom menu-item-27"
                         >
                           <a href="#">Blog</a>
                         </li>
                         <li
                           id="menu-item-28"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-28"
+                          class="menu-item menu-item-object-custom menu-item-28"
                         >
                           <a href="#">Login</a>
                         </li>
@@ -1971,64 +2030,64 @@
                     </div>
                   </div>
                 </div>
-                <div class="footer-widget-column flex-initial w-1/5">
+                <div
+                  class="footer-widget-column flex-initial w-1/2 sm:w-1/4 lg:w-1/5 prose-h4:text-lg sm:prose-h4:text-[2rem] prose-h4:font-bold prose-h4:mb-4 sm:prose-h4:mb-8 prose-a:text-lg sm:prose-a:text-[1.7rem] prose-li:pb-3 sm:prose-li:pb-8 space-y-3 sm:space-y-6"
+                >
                   <div id="nav_menu-3" class="widget widget_nav_menu">
-                    <h4 class="widget-title text-xl font-bold mb-3">
-                      Cop Apps
-                    </h4>
+                    <h4 class="widget-title">Cop Apps</h4>
                     <div class="menu-footer-cop-apps-container">
                       <ul id="menu-footer-cop-apps" class="menu">
                         <li
                           id="menu-item-29"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-29"
+                          class="menu-item menu-item-object-custom menu-item-29"
                         >
                           <a href="#">Windows</a>
                         </li>
                         <li
                           id="menu-item-30"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-30"
+                          class="menu-item menu-item-object-custom menu-item-30"
                         >
                           <a href="#">macOS</a>
                         </li>
                         <li
                           id="menu-item-31"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-31"
+                          class="menu-item menu-item-object-custom menu-item-31"
                         >
                           <a href="#">Linux</a>
                         </li>
                         <li
                           id="menu-item-32"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-32"
+                          class="menu-item menu-item-object-custom menu-item-32"
                         >
                           <a href="#">Android app</a>
                         </li>
                         <li
                           id="menu-item-33"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-33"
+                          class="menu-item menu-item-object-custom menu-item-33"
                         >
                           <a href="#">iOS app</a>
                         </li>
                         <li
                           id="menu-item-34"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-34"
+                          class="menu-item menu-item-object-custom menu-item-34"
                         >
                           <a href="#">Chrome</a>
                         </li>
                         <li
                           id="menu-item-35"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-35"
+                          class="menu-item menu-item-object-custom menu-item-35"
                         >
                           <a href="#">Firefox</a>
                         </li>
                         <li
                           id="menu-item-36"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-36"
+                          class="menu-item menu-item-object-custom menu-item-36"
                         >
                           <a href="#">Opera</a>
                         </li>
                         <li
                           id="menu-item-37"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-37"
+                          class="menu-item menu-item-object-custom menu-item-37"
                         >
                           <a href="#">Smart TVs</a>
                         </li>
@@ -2036,34 +2095,34 @@
                     </div>
                   </div>
                 </div>
-                <div class="footer-widget-column flex-initial w-1/5">
-                  <div id="nav_menu-4" class="widget widget_nav_menu mb-6">
-                    <h4 class="widget-title text-xl font-bold mb-3">
-                      Programs
-                    </h4>
+                <div
+                  class="footer-widget-column flex-initial w-1/2 sm:w-1/4 lg:w-1/5 prose-h4:text-lg sm:prose-h4:text-[2rem] prose-h4:font-bold prose-h4:mb-4 sm:prose-h4:mb-8 prose-a:text-lg sm:prose-a:text-[1.7rem] prose-li:pb-3 sm:prose-li:pb-8 space-y-3 sm:space-y-6"
+                >
+                  <div id="nav_menu-4" class="widget widget_nav_menu">
+                    <h4 class="widget-title">Programs</h4>
                     <div class="menu-footer-programs-container">
                       <ul id="menu-footer-programs" class="menu">
                         <li
                           id="menu-item-38"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-38"
+                          class="menu-item menu-item-object-custom menu-item-38"
                         >
                           <a href="#">Refer a Friend</a>
                         </li>
                         <li
                           id="menu-item-39"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-39"
+                          class="menu-item menu-item-object-custom menu-item-39"
                         >
                           <a href="#">Affiliates</a>
                         </li>
                         <li
                           id="menu-item-40"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-40"
+                          class="menu-item menu-item-object-custom menu-item-40"
                         >
                           <a href="#">Influencers</a>
                         </li>
                         <li
                           id="menu-item-41"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-41"
+                          class="menu-item menu-item-object-custom menu-item-41"
                         >
                           <a href="#">Become a Partner</a>
                         </li>
@@ -2071,26 +2130,24 @@
                     </div>
                   </div>
                   <div id="nav_menu-5" class="widget widget_nav_menu">
-                    <h4 class="widget-title text-xl font-bold mb-3">
-                      Resources
-                    </h4>
+                    <h4 class="widget-title">Resources</h4>
                     <div class="menu-footer-resources-container">
                       <ul id="menu-footer-resources" class="menu">
                         <li
                           id="menu-item-42"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-42"
+                          class="menu-item menu-item-object-custom menu-item-42"
                         >
                           <a href="#">What’s my IP</a>
                         </li>
                         <li
                           id="menu-item-43"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-43"
+                          class="menu-item menu-item-object-custom menu-item-43"
                         >
                           <a href="#">DNS Leak Test</a>
                         </li>
                         <li
                           id="menu-item-44"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-44"
+                          class="menu-item menu-item-object-custom menu-item-44"
                         >
                           <a href="#">Email Leak Test</a>
                         </li>
@@ -2098,32 +2155,34 @@
                     </div>
                   </div>
                 </div>
-                <div class="footer-widget-column flex-initial w-1/5">
-                  <div id="nav_menu-6" class="widget widget_nav_menu mb-6">
-                    <h4 class="widget-title text-xl font-bold mb-3">Company</h4>
+                <div
+                  class="footer-widget-column flex-initial w-1/2 sm:w-1/4 lg:w-1/5 prose-h4:text-lg sm:prose-h4:text-[2rem] prose-h4:font-bold prose-h4:mb-4 sm:prose-h4:mb-8 prose-a:text-lg sm:prose-a:text-[1.7rem] prose-li:pb-3 sm:prose-li:pb-8 space-y-3 sm:space-y-6"
+                >
+                  <div id="nav_menu-6" class="widget widget_nav_menu">
+                    <h4 class="widget-title">Company</h4>
                     <div class="menu-footer-company-container">
                       <ul id="menu-footer-company" class="menu">
                         <li
                           id="menu-item-45"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-45"
+                          class="menu-item menu-item-object-custom menu-item-45"
                         >
                           <a href="#">About cop</a>
                         </li>
                         <li
                           id="menu-item-46"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-46"
+                          class="menu-item menu-item-object-custom menu-item-46"
                         >
                           <a href="#">Sitemap</a>
                         </li>
                         <li
                           id="menu-item-47"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-47"
+                          class="menu-item menu-item-object-custom menu-item-47"
                         >
                           <a href="#">Reviews</a>
                         </li>
                         <li
                           id="menu-item-48"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-48"
+                          class="menu-item menu-item-object-custom menu-item-48"
                         >
                           <a href="#">Companies we support</a>
                         </li>
@@ -2131,24 +2190,24 @@
                     </div>
                   </div>
                   <div id="nav_menu-7" class="widget widget_nav_menu">
-                    <h4 class="widget-title text-xl font-bold mb-3">Help</h4>
+                    <h4 class="widget-title">Help</h4>
                     <div class="menu-footer-help-container">
                       <ul id="menu-footer-help" class="menu">
                         <li
                           id="menu-item-49"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-49"
+                          class="menu-item menu-item-object-custom menu-item-49"
                         >
                           <a href="#">Support</a>
                         </li>
                         <li
                           id="menu-item-50"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-50"
+                          class="menu-item menu-item-object-custom menu-item-50"
                         >
                           <a href="#">Contact us</a>
                         </li>
                         <li
                           id="menu-item-51"
-                          class="menu-item mb-3 menu-item-object-custom menu-item-51"
+                          class="menu-item menu-item-object-custom menu-item-51"
                         >
                           <a href="#">DMCA Policy</a>
                         </li>
@@ -2156,42 +2215,35 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="footer-widget-column">
-                            <div class="footer-contact-info">
-                                <ul></ul>
-                            </div>
-                            <div class="footer-social-links"></div>
-                        </div> -->
               </div>
             </div>
           </div>
         </div>
         <div class="footer-bottom-section mt-10">
-          <div class="container sm md lg xl 2xl mx-auto px-5">
-            <div class="pt-8 border-t border-white">
+          <div class="container-small">
+            <div class="pt-5 sm:pt-8 border-t border-white">
               <div class="flex flex-wrap justify-between">
-                <div class="cop-column cop-column-0">
+                <div class="cop-column cop-column-0 text-lg sm:text-[1.7rem]">
                   <div class="cop-text-widget">
                     <p>© 2023 CopVPN. All rights reserved.</p>
                   </div>
                 </div>
                 <div class="cop-column cop-column-1">
-                  <div class="footer-widget-column">
+                  <div
+                    class="footer-widget-column text-lg sm:text-[1.7rem] prose-ul:flex prose-ul:flex-wrap prose-ul:gap-3 sm:prose-ul:gap-20"
+                  >
                     <div id="nav_menu-8" class="widget widget_nav_menu">
                       <div class="menu-footer-privacy-policy-container">
-                        <ul
-                          id="menu-footer-privacy-policy"
-                          class="menu flex flex-wrap"
-                        >
+                        <ul id="menu-footer-privacy-policy" class="menu">
                           <li
                             id="menu-item-60"
-                            class="menu-item mb-3 menu-item-object-custom menu-item-60"
+                            class="menu-item menu-item-object-custom menu-item-60"
                           >
                             <a href="#">Terms and Conditions</a>
                           </li>
                           <li
                             id="menu-item-61"
-                            class="menu-item mb-3 menu-item-object-custom menu-item-61"
+                            class="menu-item menu-item-object-custom menu-item-61"
                           >
                             <a href="#">Privacy Policy</a>
                           </li>
