@@ -33,7 +33,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .button {
-  @apply py-3 sm:py-8 pl-5 sm:pl-10 pr-16 sm:pr-32 inline-block rounded-full relative text-lg sm:text-3xl font-semibold transition-all duration-300;
+  @apply py-3 sm:py-8 pl-5 sm:pl-10 pr-16 sm:pr-32 inline-block rounded-full relative text-base sm:text-3xl font-semibold transition-all duration-300;
 }
 .button-gradient {
   @apply text-white bg-gradient-to-r from-0% from-Primary to-Secondary hover:bg-gradient-to-l shadow-cardPrimary;
